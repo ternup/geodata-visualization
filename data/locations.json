@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+	{ 
+	  "type": "Feature", 
+	  "id":"1", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [76.775174,17.012534] 
+		}],
+	  "properties": [{
+		  "location": "Jevargi, Gulbarga",
+		  "type": "Ecosan",
+		  "segments": [0,0,4,3,0,0,2,0],
+		  "color": "green"
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"2", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [77.291251,17.178282] 
+		}],
+	  "properties": [{
+		  "location": "Sedam, Gulbarga",
+		  "type": "Septic Tank",
+		  "segments": [0,0,0,0,1,0,0,0],
+		  "color": "red"           
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"3", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [77.155015,17.200226] 
+		}],
+	  "properties": [{
+		  "location": "Malkhed, Gulbarga",
+		  "type": "Septic Tank",
+		  "segments": [0,0,1,3,0,1,1,0],
+		  "color": "green"           
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"4", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [77.136025,17.249627] 
+		}],
+	  "properties": [{
+		  "location": "Tengli, Gulbarga",
+		  "type": "Double Pit",
+		  "segments": [0,0,0,1,1,0,0,0],
+		  "color": "orange" 
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"5", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [77.130121,17.283453] 
+		}],
+	  "properties": [{
+		  "location": "Village near Tengli, Gulbarga",
+		  "type": "Septic Tank",
+		  "segments": [0,0,1,0,0,0,0,0],
+		  "color": "red"
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"6", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [77.151412,17.350647] 
+		}],
+	  "properties": [{
+		  "location": "Kalgi 1, Gulbarga",
+		  "type": "Open Pit",
+		  "segments": [0,0,4,8,2,4,6,0],
+		  "color": "green"
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"7", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [77.155299,17.352929] 
+		}],
+	  "properties": [{
+		  "location": "Kalgi 3, Gulbarga",
+		  "type": "Double Pit",
+		  "segments": [0,0,0,1,1,1,0,0],
+		  "color": "orange" 
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"8", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [77.049894,17.377989] 
+		}],
+	  "properties": [{
+		  "location": "Hebbal, Gulbarga",
+		  "type": "Double Pit",
+		  "segments": [0,0,0,8,4,0,0,0],
+		  "color": "red"
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"9", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [76.572512,17.564257] 
+		}],
+	  "properties": [{
+		  "location": "Aland 1, Gulbarga",
+		  "type": "Double Pit",
+		  "segments": [0,0,0,0,0,0,0,1],
+		  "color": "red"
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"10", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [76.560475,17.565380] 
+		}],
+	  "properties": [{
+		  "location": "Aland 2, Gulbarga",
+		  "type": "Septic Tank",
+		  "segments": [0,0,3,8,2,7,0,0],
+		  "color": "green"
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"11", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [76.568713,17.573603] 
+		}],
+	  "properties": [{
+		  "location": "Aland 3, Gulbarga",
+		  "type": "Septic Tank",
+		  "segments": [0,0,0,14,4,0,0,0],
+		  "color": "red"
+		  }]
+	},
+	{ 
+	  "type": "Feature", 
+	  "id":"12", 
+	  "geometry": [{ 
+		"type": "Point", 
+		"coordinates": [76.716890,17.516856] 
+		}],
+	  "properties": [{
+		  "location": "Narona, Gulbarga",
+		  "type": "Septic Tank",
+		  "segments": [0,0,2,7,2,1,2,0],
+		  "color": "green"
+		  }]
+	}
+  ]
+}

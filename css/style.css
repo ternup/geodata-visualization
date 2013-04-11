@@ -1,0 +1,139 @@
+
+*{
+padding:0;
+margin:0;
+}
+
+	  html {
+    height: 100%
+	overflow: hidden;
+}
+
+body {
+    background: #000;
+    font: 12px Georgia, Times New Roman, Times, serif;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: none
+	height:100%;
+}
+
+
+.leaflet-popup-content{
+width:auto !important;
+
+}
+
+
+.leaflet-popup{	
+	left:-210px !important;
+}
+h2 {
+    font-family:  Arial, sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+	letter-spacing:4px;
+	color:#777;
+position:absolute;left:4px;top:70px;margin:0}
+
+
+#toilets {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+
+	list-style: none;
+	
+	width:295px;
+
+}
+
+p{
+	margin: 0 0 4px;
+}
+
+#toilets li a{	
+	text-decoration:none;
+	color:#eee;
+	
+}
+
+#toilets > li{	
+	width:310px;
+	height:20px;
+	padding:10px;
+	display:table;
+	background: #111;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;	
+	border-top: 1px solid #333;
+	overflow:hidden;
+	cursor:pointer;
+	color:#ddd;
+}
+
+#toilets li:hover{
+	background:#333;
+}
+
+#toilets .actions li {
+	display: inline;
+	margin-bottom:14px;
+}
+
+#toilets .actions {
+	margin:0;	
+    padding:0;
+	margin-bottom:7px;
+}
+
+
+#toilets .actions li a{	
+	margin-right: 8px;
+	color: #999;
+	font-size: 12px;
+	font-weight:normal
+}
+
+#toilets li a:hover, .toilets li a:focus{
+	text-decoration: underline;
+	
+}
+#slider-toilet {
+    background: #0b0b0b;
+    width: 310px;
+    border: 1px solid #111;
+	z-index:99999;
+	position:absolute;
+	right:0px;
+}
+
+.handle1{cursor:pointer;}
+
+.leaflet-left {
+	right: 330px !important;
+	left: auto !important;
+}
+
+
+@media only screen and (max-width: 480px) {  
+	#toilets {
+		display:none;
+	}
+.leaflet-left {
+	left: 5px!important;
+	right: auto!important;
+}
+
+	
+
+}

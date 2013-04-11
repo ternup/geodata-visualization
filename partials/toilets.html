@@ -1,0 +1,5 @@
+<div id="toiletApp">
+<ul id="toilets"  ng-repeat="toilet in data.features">
+	<li class="toilet-item" onclick="select({{toilet}})" ><div style="float:left;width:20px; margin: 0 10px 0 0;background:{{toilet.properties[0].color}}">&nbsp;</div>{{toilet.properties[0].location}} : {{toilet.properties[0].type}}</li>
+</ul>
+</div>

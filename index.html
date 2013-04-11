@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" ng-app="sanhack">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TernUp - Toilet Usage Statistics</title>	
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/v/leaflet.css" />
+	<link rel="stylesheet" href="dist/MarkerCluster.css" />
+	<link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
+	<link href="http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
+	<!--[if lte IE 8]><link rel="stylesheet" href="dist/MarkerCluster.Default.ie.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/v/leaflet.ie.css" /><![endif]-->
+<script src="js/v/jquery-1.8.3.min.js"></script>
+	<script src="lib/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	
+
+    
+	
+<script src="js/init.js"></script>	 
+	<script src="js/v//leaflet.js"></script>
+	<script src="dist/leaflet.markercluster-src.js"></script>	
+
+	<script src="js/v/raphael.js"></script>
+	<script src="js/v/popup.js"></script>
+	<script src="js/v/analytics.js"></script>
+		
+
+</head>
+<body>
+
+	<div id="map" ></div>
+		
+	<div id="slider-toilet">
+		<a class="handle1"></a>
+		<div id="toilet-list" ng-view></div>
+	</div>
+	
+	<img src="images/logo.png" style="position:absolute;top:10px;">
+	<h2>TOILET USAGE STATISTICS</h2>
+	
+</body>
+</html>
